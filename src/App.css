@@ -9,14 +9,14 @@
 }
 
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+  height: 90px;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+  border-bottom: 2px solid black;
 }
 
 .App-link {
@@ -30,4 +30,168 @@
   to {
     transform: rotate(360deg);
   }
+}
+/* empesar css de app de via guate */
+.cont-logo{
+  width: 90px;
+  height: 40px;
+  border: 1px solid black;
+  color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 55px;
+}
+.btn-herader{
+  border: 3px solid #8a8a8a;
+  margin-right: 15px;
+  text-decoration: none !important;
+  color: black;
+  font-size: 15px;
+  font-family: sans-serif;
+  font-weight: bold;
+}
+.last{
+  border: 3px solid #8a8a8a;
+  text-decoration: none !important;
+  color: black;
+  font-size: 15px;
+  font-family: sans-serif;
+  margin-right: 70px;
+  font-weight: bold;
+}
+.btn-herader:hover{
+  color: black;
+  background: #f8fff8;
+}
+.last:hover{
+  color: black;
+  background: #f8fff8;
+}
+.icon-header{
+  display: inline-flex;
+}
+.text-icon{
+  width: 20px;
+  height: 20px;
+  border: 1px solid black;
+  margin-top: 12px;
+}
+.text {
+  margin: 12px 8px;
+  color: black;
+  font-size: 12px;
+  font-family: unset;
+}
+.menu {
+  font-size: 30px;
+  color: black;
+  margin-top: -5px;
+}
+.center {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.search-icon{
+  position: relative;
+}
+.search-icon svg {
+  position: absolute;
+  right: 5%;
+  font-size: 25px;
+  top: 52%;
+}
+.search-icon input{
+  width: 100%;
+  outline: none;
+  border-radius: 5px;
+  padding: 5px;
+  margin-bottom: 25px;
+}
+.search-icon h4{
+  margin-top: 20px;
+  margin-bottom: 15px;
+}
+::placeholder{
+  font-size: 14px;
+}
+.btn-search{
+  border: 1px solid #8a8a8a;
+  margin-right: 15px;
+  text-decoration: none !important;
+  color: black;
+  font-size: 15px;
+  font-family: sans-serif;
+  padding: 10px 30px;
+}
+.btn-search:hover{
+  color: black;
+}
+.react-switch-bg {
+  background: #909090!important;
+}
+.Switch-label{
+  margin-top: 20px;
+}
+span {
+  font-size: 20px;
+}
+.span-left{
+  padding-left: 385px;
+  
+}
+.card-body{
+  min-height: 350px;
+}
+.title{
+  font-size: 16px;
+  text-transform: uppercase;
+  margin-top: 8px;
+}
+.address{
+font-size: 11px;
+}
+.icon-services{
+  font-size: 25px;
+  margin-right: 5px;
+}
+.quantity{
+  font-size: 10px;
+}
+p.card-text {
+  margin-bottom: 1px;
+}
+.front.text.card-text {
+  position: absolute;
+  bottom: 170px;
+  background: #0000008f;
+  width: 84%;
+  margin-left: 0;
+  height: 30px;
+  color: white;
+  font-size: 18px;
+}
+.text-price{
+  margin-left: 5px;
+  font-size: 18px;
+  font-weight: bold;
+}
+.text-price2{
+  font-size: 14px;
+}
+.heart {
+  position: absolute;
+  right: 34px;
+  font-size: 20px;
+  color: white;
+  top: 20px;
+}
+.after {
+  background-color: #e6951a;
+  width: 60px;
+  margin-top: 15px;
+  font-size: 15px;
+  text-align: center;
+  color: white;
 }
